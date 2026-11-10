@@ -1,0 +1,18 @@
+# macOS / editor
+.DS_Store
+*.swp
+
+# Swift Package Manager
+/.build/
+.swiftpm/
+Package.resolved
+
+# Xcode build output / DerivedData
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode per-user (keep shared schemes in xcshareddata/)
+xcuserdata/

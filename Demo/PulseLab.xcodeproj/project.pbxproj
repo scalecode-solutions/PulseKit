@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		PLB000PKITBUILDFILE00001 /* PulseKit in Frameworks */ = {isa = PBXBuildFile; productRef = PLB000PKITPRODUCTDEP01 /* PulseKit */; };
+		PLB000MVAUTHBUILD000001 /* MvAuth in Frameworks */ = {isa = PBXBuildFile; productRef = PLB000MVAUTHPRODDEP00001 /* MvAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		PLB000APPPRODUCT00000001 /* PulseLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		PLB000SOURCEROOTGROUP001 /* PulseLab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PulseLab;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		PLB000FRAMEWORKSPHASE001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				PLB000PKITBUILDFILE00001 /* PulseKit in Frameworks */,
+				PLB000MVAUTHBUILD000001 /* MvAuth in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		PLB000MAINGROUP000000001 = {
+			isa = PBXGroup;
+			children = (
+				PLB000SOURCEROOTGROUP001 /* PulseLab */,
+				PLB000PRODGROUP000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		PLB000PRODGROUP000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PLB000APPPRODUCT00000001 /* PulseLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		PLB000APPTARGET000000001 /* PulseLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = PLB000APPCONFLIST0000001 /* Build configuration list for PBXNativeTarget "PulseLab" */;
+			buildPhases = (
+				PLB000SOURCESPHASE000001 /* Sources */,
+				PLB000FRAMEWORKSPHASE001 /* Frameworks */,
+				PLB000RESOURCESPHASE0001 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				PLB000SOURCEROOTGROUP001 /* PulseLab */,
+			);
+			name = PulseLab;
+			packageProductDependencies = (
+				PLB000PKITPRODUCTDEP01 /* PulseKit */,
+				PLB000MVAUTHPRODDEP00001 /* MvAuth */,
+			);
+			productName = PulseLab;
+			productReference = PLB000APPPRODUCT00000001 /* PulseLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PLB000PROJECT00000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					PLB000APPTARGET000000001 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = PLB000PROJCONFLIST000001 /* Build configuration list for PBXProject "PulseLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = PLB000MAINGROUP000000001;
+			packageReferences = (
+				PLB000LOCALPKGREF0000001 /* XCLocalSwiftPackageReference ".." */,
+				PLB000MVAUTHLOCALPKG001 /* XCLocalSwiftPackageReference "../../MvAuth-iOS" */,
+			);
+			preferredProjectObjectVersion = 90;
+			productRefGroup = PLB000PRODGROUP000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				PLB000APPTARGET000000001 /* PulseLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		PLB000RESOURCESPHASE0001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		PLB000SOURCESPHASE000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		PLB000APPDEBUGCONFIG0001 /* Debug configuration for PBXNativeTarget "PulseLab" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pulse Lab";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "PulseLab records audio for audio pulses.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.scalecode.PulseLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		PLB000APPRELEASECONFIG01 /* Release configuration for PBXNativeTarget "PulseLab" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pulse Lab";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "PulseLab records audio for audio pulses.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.scalecode.PulseLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		PLB000PROJDEBUGCONFIG001 /* Debug configuration for PBXProject "PulseLab" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		PLB000PROJRELEASECONFG01 /* Release configuration for PBXProject "PulseLab" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PLB000APPCONFLIST0000001 /* Build configuration list for PBXNativeTarget "PulseLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PLB000APPDEBUGCONFIG0001 /* Debug configuration for PBXNativeTarget "PulseLab" */,
+				PLB000APPRELEASECONFIG01 /* Release configuration for PBXNativeTarget "PulseLab" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		PLB000PROJCONFLIST000001 /* Build configuration list for PBXProject "PulseLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PLB000PROJDEBUGCONFIG001 /* Debug configuration for PBXProject "PulseLab" */,
+				PLB000PROJRELEASECONFG01 /* Release configuration for PBXProject "PulseLab" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		PLB000LOCALPKGREF0000001 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+		PLB000MVAUTHLOCALPKG001 /* XCLocalSwiftPackageReference "../../MvAuth-iOS" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../MvAuth-iOS";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		PLB000PKITPRODUCTDEP01 /* PulseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PulseKit;
+		};
+		PLB000MVAUTHPRODDEP00001 /* MvAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MvAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = PLB000PROJECT00000000001 /* Project object */;
+}
